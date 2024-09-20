@@ -1,0 +1,9 @@
+/target/
+/screenshot/
+/.idea
+/.settings
+/output/
+.classpath
+.project
+
+/bin/

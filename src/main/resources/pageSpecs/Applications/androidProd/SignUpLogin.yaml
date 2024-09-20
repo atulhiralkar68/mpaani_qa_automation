@@ -1,0 +1,321 @@
+timeout: 10
+elements:
+   title:
+      findBy: id
+      locator: tvTitle
+   getStarted:
+      findBy: id
+      locator: tv_login
+   countryCode:
+      findBy: id
+      locator: edtContryCode
+   mobileNmber:
+      findBy: id
+      locator: edtMobileNumber 
+   sendOTP:
+      findBy: id
+      locator: btnSubmit
+   OTPTextField:
+      findBy: id
+      locator: edtOTP
+   englishLanguage:
+      findBy: id
+      locator: tvLanguageTitle;
+   changelanguage:
+     findBy: id
+     locator: btnChangeLanguage;
+   denyLocation:
+      findBy: id
+      locator: permission_deny_button;
+   allowLocation:
+      findBy: id
+      locator: permission_allow_foreground_only_button;
+   search:
+      findBy: id
+      locator: svHome;
+   HomeScreen:
+      findBy: id
+      locator: vTitle;
+   NoneOfTheAbove:
+      findBy: id
+      locator: com.google.android.gms:id/cancel
+   seeOrderDetails:
+      findBy: id
+      locator: btnShowOrder
+   backClass:
+      findBy: class
+      locator: android.widget.ImageButton
+   backId:
+      findBy: id
+      locator: ivCancelment
+   searchTextField:
+      findBy: id
+      locator: edtSearch
+   helpIcon:
+      findBy: id
+      locator: ivHelp
+   helpPage:
+      findBy: id
+      locator: svHome
+   comboOffers:
+      findBy: id
+      locator: tvAvailableOffers
+   rating:
+      findBy: id
+      locator: ivRating
+   shopDistance:
+      findBy: id
+      locator: tvShopDistance
+   DeiveryIcon:
+      findBy: id
+      locator: ivDeliveryIcon
+   dropdownIcon:
+      findBy: id
+      locator: spinnerUnit
+   offPerc:
+      findBy: id
+      locator: tvTag
+   priceOfProduct:
+      findBy: id
+      locator: tvProductSp
+   relateditem:
+      findBy: id
+      locator: cvParent
+   addButtn:
+      findBy: id
+      locator: btnAdd
+   minusButtn:
+      findBy: id
+      locator: tvMinusProduct
+   cartNotification:
+      findBy: id
+      locator: tvCartCount
+   placeOrder:
+      findBy: id
+      locator: btnCheckOut
+   homeDelivery:
+      findBy: id
+      locator: btnSelectHomeDelivery
+   pickUpAddress:
+      findBy: id
+      locator: tvPickupTitle
+   checkoutPage:
+      findBy: id
+      locator: tvCheckoutTitle  
+   totalAmount:
+      findBy: id
+      locator: tvTotalPayable
+   payNow:
+      findBy: id
+      locator: redesign-v15-cta 
+   addButton:
+      findBy: id
+      locator: tvPlusProduct
+   Texts:
+        findBy: xpath
+        locator: //android.widget.TextView  
+   buttons:
+        findBy: xpath
+        locator: //android.widget.Button
+   homescreen:
+      findBy: xpath
+      locator: //android.widget.FrameLayout[@content-desc="Home"]
+   searchBar:
+      findBy: xpath
+      locator: (//android.widget.TextView)[4]
+   addBtn:
+      findBy: xpath
+      locator: (//android.widget.Button)[1]
+   cart:
+      findBy: xpath
+      locator: //android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.ImageView
+   addedProduct:
+      findBy: xpath
+      locator: //*[@text="Haldiram's Mixture - 350 GMs"]
+   searchTextField:
+      findBy: xpath
+      locator: //android.widget.EditText
+   helpBtn:
+      findBy: xpath
+      locator: //*[@text="Help"]
+   TextField:
+      findBy: xpath
+      locator: //android.widget.EditText
+   sentText:
+      findBy: xpath
+      locator: //*[@text="test1"]
+   name:
+      findBy: id
+      locator: textinput_placeholder
+   EmailId:
+     findBy: id
+     locator: edtMail
+   AddButtonInHomePage:
+      findBy: id
+      locator: tvAdd   
+   filterByText:
+      findBy: xpath
+      locator: //*[@text='Filter by']
+   filterText:
+     findBy: id
+     locator: tvFilterText
+   filterCategories:
+      findBy: xpath
+      locator: //*[@text='CATEGORIES']
+   filterOffers:
+      findBy: xpath
+      locator: //*[@text='OFFERS']
+   filterShopDeliveryOptions:
+      findBy: xpath
+      locator: //*[@text='SHOP DELIVERY OPTIONS']
+   recommendedItmName:
+     findBy: id
+     locator: tvOfferName     
+   recommendedItmPrice:
+     findBy: id
+     locator: tvOfferPrice      
+   recommendedItems:
+      findBy: id
+      locator: clSubParent
+   recommendedIcons:
+      findBy: id
+      locator: ivIcon
+   profile:
+      findBy: id
+      locator: menuProfile
+   itemName:
+      findBy: id
+      locator: etProductName
+   addQuantity:
+      findBy: id
+      locator: etUnit
+   heading:
+      findBy: id
+      locator: tvHeading
+   cantfindItem:
+     findBy: id
+     locator: tvSubTitle
+   selectAddress:
+     findBy: id
+     locator: clParent
+   noThanksBtn:
+     findBy: id
+     locator: com.android.vending:id/0_resource_name_obfuscated
+   searchForStore:
+     findBy: id
+     locator: clParent  
+   totalcost:
+     findBy: id
+     locator: tvProductSp
+   shopsMenuIcon:
+      findBy: id
+      locator: menuStores   
+   shopsSortAndFilter:
+      findBy: id
+      locator: tvFilterAndSort
+   newlyOpenedInShopsPage:
+      findBy: xpath
+      locator: //*[@text='Newly Opened']
+   shopsSortAndFilterClear:
+      findBy: id
+      locator: btnClear
+   shopsSortAndFilterViewResults:
+      findBy: id
+      locator: btnViewResult
+   shopsSortAndFilterTitleText:
+      findBy: xpath
+      locator: //*[@text='Sort & Filter']
+   shopsSortAndFilterSortByOption:
+      findBy: xpath
+      locator: //*[@text='SORT BY']
+   shopsSortAndFilterShopTypeOption:
+      findBy: xpath
+      locator: //*[@text='SHOP TYPE']
+   shopsSortAndFilterRatingsOption:
+      findBy: xpath
+      locator: //*[@text='RATINGS']
+   shopsSortAndFilterDistanceOption:
+      findBy: xpath
+      locator: //*[@text='DISTANCE']
+   shopsSortAndFilterShopsWithOffers:
+      findBy: xpath
+      locator: //*[@text='SHOPS WITH OFFERS']
+   shopsSortAndFilterShopCategories:
+      findBy: xpath
+      locator: //*[@text='SHOP CATEGORIES']
+   shopsSortAndFilterClose:
+      findBy: id
+      locator: ivClose
+   searchPageProductQuantity:
+      findBy: xpath
+      locator: //*[@text='250 GMs']
+   searchPageProductQuantityUpdate:
+      findBy: xpath
+      locator: //*[@text='500 GMs']
+   searchPageAddButton:
+      findBy: xpath
+      locator: //*[@text='ADD']
+   selectAShopToBuyText:
+      findBy: xpath
+      locator: //*[@text='Select a Shop to buy:']
+   cartProductNameAndQuantityText:
+      findBy: xpath
+      locator: //*[@text='Rice - 500 GMs']
+   cartPageItemCount:
+      findBy: id
+      locator: tvStoreAndItem
+   skipButton:
+     findBy: id
+     locator: txtSkip
+   shopName:
+     findBy: id
+     locator: tvShopName
+   category:
+     findBy: id
+     locator: ivCategory
+   productCategoryImage:
+     findBy: id
+     locator: ivProductCatImg
+   productCategoryTitle:
+     findBy: id
+     locator: tvProductCatTitle
+   productSpecificationPage:
+     findBy: id
+     locator: titleProductLanding
+   storeName:
+     findBy: id
+     locator: brnNavStore
+   addLocation:
+     findBy: id
+     locator: btnNewAddress
+   defaultAddress:
+     findBy: id
+     locator: tvLabel
+   defaultLocation:
+       findBy: id
+       locator: emptyContentTitle              
+   viewResult:
+       findBy: id
+       locator: btnViewResult
+   expand:
+     findBy: id
+     locator: ivExpand
+   rating:
+     findBy: id
+     locator: tvRating
+   rateclose:
+     findBy: id
+     locator: ivClose
+   filterCategories:
+      findBy: xpath
+      locator: //*[@text='CATEGORIES']
+   filterOffers:
+      findBy: xpath
+      locator: //*[@text='OFFERS']
+   filterShopDeliveryOptions:
+      findBy: xpath
+      locator: //*[@text='SHOP DELIVERY OPTIONS']
+
+
+
+   
